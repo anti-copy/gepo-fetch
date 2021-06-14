@@ -1,5 +1,6 @@
 # Copyright (c) Anti-Copy Development Team.
 # Distributed under the terms of the Modified Apache License.
+# -*- coding: utf-8 -*-
 
 
 from datetime import datetime
