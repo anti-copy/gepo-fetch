@@ -1,12 +1,12 @@
 # .coveragerc to control coverage.py
-#https://coverage.readthedocs.io/en/latest/config.html
+# https://coverage.readthedocs.io/en/latest/config.html
 [run]
 branch = True
 
 [paths]
 source =
-    gepofetch
-    tests
+    gepofetch/
+    tests/
 
 [report]
 # Regexes for lines to exclude from consideration

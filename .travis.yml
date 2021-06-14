@@ -7,6 +7,6 @@ install:
   - python setup.py install
 script: 
   - pytest --cov 
-  - COVERALLS_REPO_TOKEN=dpLeB1hkrmqFyRxfC97Q3E1xOf1OOVuxJ coveralls
+  - COVERALLS_REPO_TOKEN=dpLeB1hkrmqFyRxfC97Q3E1xOf1OOVuxJ coveralls --rffile=.coveragerc
 virtualenv:
   system_site_packages: true
