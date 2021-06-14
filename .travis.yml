@@ -1,9 +1,11 @@
 language: python
-os: centos
-script: 
-  - python setup.py install
-  - pytest tests
 python:
   - "2.7"
+os: centos
+install:
+  - pip install -r test_requriements.txt
+  - python setup.py install
+script: 
+  - pytest --cov 
 virtualenv:
   system_site_packages: true

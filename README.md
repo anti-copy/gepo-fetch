@@ -5,3 +5,4 @@
 
 A python project to get data from github or gitee repo with Python2 built-in module
 
+Only support python2 at the moment!
