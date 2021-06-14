@@ -1,2 +1,7 @@
 language: python
 os: centos
+script: python setup.py install && pytest tests
+python:
+  - "2.7"
+virtualenv:
+  system_site_packages: true
